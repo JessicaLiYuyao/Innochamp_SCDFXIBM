@@ -35,21 +35,20 @@ Adapt2bot is an upstream solution for preventing the escalation of issues that i
 
 ### Our solution
 
-Our solution: Stopping the spread of fear and ignorance of emergency events by providing curated information based on the public opinion on similar international events. 
+Our solution: 
+Stopping the spread of fear and ignorance of emergency events by providing curated information based on the public opinion on similar international events. 
 
 One way to deal with this problem is to measure the level of awareness and preparedness of the population and formulate target measures to deal with the problem. We do so by gathering the public responses to current issues worldwide including those which have yet happened in Singapore (Covid, Terrorism, BLM…) through social media platforms such as Twitter. We would filter out non-local data and apply Natural Language Understanding for sentiment and emotion analysis on the data to gain some insight on how concerned and well-prepared local residents are. Based on their result from sentiment and emotion analysis, the public would be categorised into five different levels of panic (over-concerned, concerned, unaware, ignorant and nonchalant). 
 
 The results of sentiment and emotion analysis are used to curate the responses of the chatbot. We train our chatbot with the capability of giving targeted responses to the public on current issues. Whenever a user approaches the chatbot, the text he/she sends would be analysed by Watson Assistant using Natural Language Understanding and machine learning to extract entities and intents of the user question. Based on the analysis, this user would be categorised and chatbot would provide targeted responses accordingly.  
-
 These activities are able to meet the needs of the specific groups and also acts as an *upstream solution* to curb and stop problems before they even arise.
 
 It's imperative that learning and creating can continue when educational institutions have to shift the way they teach in times of crises, such as the COVID-19 pandemic. Providing a set of open source tools, backed by IBM Cloud and Watson Services, will enable educators to more easily make content available for their students.
 
-
-
 ## Demo video
 
-The video is found [![Watch the video](https://github.com/Code-and-Response/Liquid-Prep/blob/master/images/IBM-interview-video-image.png)](https://youtu.be/vOgCOoy_Bx0)
+The video pitch can be found at.
+[![Watch the video]()](https://youtu.be/cMqfFqyroLM)
 
 ## The architecture
 
