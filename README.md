@@ -64,7 +64,7 @@ It's imperative that learning and creating can continue when educational institu
 Watson Assistant uses natural language understanding and machine learning to extract entities and intents of the user question.
 
 ## Detailed description
-The hyperlink to a detailed description of Adapt2bot can be found at: ![Long description](Detailed_description)
+The hyperlink to a detailed description of Adapt2bot can be found at: ![Long description](https://github.com/JessicaLiYuyao/Innochamp_SCDFXIBM/blob/master/Detailed_description.md)
 
 ## Node-red flow
 The overall node-red flow after importing our ![programmed node-red json file](Innochamp_IBMXSCDF.json) can be visualized as such: ![Overall node-red flow](Overall_node-red_flow.PNG)
@@ -89,7 +89,7 @@ The preview link for the chatbot tailored to panic sentiments can be found at: !
 The project roadmap for Adapt2bot is can be found at ![project roadmap](Project_roadmap.PNG)
 
 ## Getting started
-The hyperlink for getting started with a demo can be found at ![getting started](1)
+The hyperlink for getting started with a demo can be found at ![getting started](https://github.com/JessicaLiYuyao/Innochamp_SCDFXIBM/blob/master/Getting_Started.md)
 
 ## Built with
 
