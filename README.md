@@ -2,7 +2,6 @@
 
 # Innochamp:Adapt2bot_SCDFXIBM
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
 Innochamp consists of Ajay Philip Koshy, Teo Jun Wei, Heng Gene Yeo, Ni Jiaying and Jessica Li Yuyao. We are a group of university students passionate about incorporating smart technology to facilitate emergency crisis efforts by SCDF. We developed "Adapt2bot" in response to the SCDFXIBM innovation challenge 2020.
 
 
