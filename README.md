@@ -3,6 +3,7 @@
 # Innochamp:Adapt2bot_SCDFXIBM
 
 [![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
+Innochamp consists of Ajay Philip Koshy, Teo Jun Wei, Heng Gene Yeo, Ni Jiaying and Jessica Li Yuyao. We are a group of university students passionate about incorporating smart technology to facilitate emergency crisis efforts by SCDF. We developed "Adapt2bot" in response to the SCDFXIBM innovation challenge 2020.
 
 
 ## Contents
@@ -10,6 +11,7 @@
 1. [Short description](#short-description)
 1. [Demo video](#demo-video)
 1. [The architecture](#the-architecture)
+1. [Detailed description](#detailed-description)
 1. [Node-red flow](#node-red-flow)
 1. [Demo for chatbot](#chatbot-demo)
 1. [Contributing](#contributing)
@@ -42,7 +44,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## The architecture
 
-![Video transcription/translation app](Overall_Architecture_Design.PNG)
+![Overall Architecture Design](Overall_Architecture_Design.PNG)
 
 1. A stream of tweets related to the crisis in discussion is grabbed from the linked twitter API and fed into NODE-RED using specified twitter hashtags periodically according to preset intervals.
 2. NODE-RED filters the stream of tweets using a geo-operator to narrow the tweets to those coming from Singapore.
@@ -57,16 +59,27 @@ It's imperative that learning and creating can continue when educational institu
 11. The user visits the chatbot enabled by NODE-RED and interacts with the chatbot on the crisis at hand. 
 Watson Assistant uses natural language understanding and machine learning to extract entities and intents of the user question.
 
+## Detailed description
+The hyperlink to a detailed description of Adapt2bot can be found at: ![Long description](Detailed_description)
 
 ## Node-red flow
+The overall node-red flow after importing our ![programmed node-red json file](Innochamp_IBMXSCDF.json) can be visualized as such: ![Overall node-red flow](Overall_node-red_flow.PNG)
 
-![Roadmap](roadmap.jpg)
+The overall node-red flow can be broken down into three modules:
+1. The tweet extraction module extracts tweets from Twitter API for analysis and filters away the undesirable tweets for analysis. Target tweets are those from Singapore and are relevant to the crisis in analysis, ie. Dengue.
+![Tweet extraction](Tweet_extraction.PNG)
+2. The target tweets, in the form of text, are fed into the IBM Watson Language translator and IBM Watson Natural Language Understanding nodes for sentiment analysis.
+![Sentiment analysis](Sentiment_analysis.PNG)
+3. Using a pre-developed multilang sentiment node, an overall sentiment score is assigned to the twitter feeds and scaled to the 0-10 dimension for cleaner data visualization.
+![General sentiment score](General_sentiment_score.PNG)
+
 
 ## Chatbot demo
+IBM Watson Studio Assistant is used to provide a user interface for chatbot communication. We pre-trained two chatbots on the extreme spectrums of the emotion outputs, nonchalant and panic for demonstration purposes.
 
 The preview link for the chatbot tailored to nonchalant sentiments can be found at: [nonchalant.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=553aa513-a252-416d-b600-fafaf8fc1350&serviceInstanceID=518a91b5-639b-4917-b04b-ae6abb6f0e17)
 
-The preview link for the chatbot tailored to nonchalant sentiments can be found at: [panic.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=72404ffb-d4a8-4aa7-b55f-4aaaae248c73&serviceInstanceID=80720d1b-b845-437e-a994-845b8bdfa6b2)
+The preview link for the chatbot tailored to panic sentiments can be found at: [panic.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=72404ffb-d4a8-4aa7-b55f-4aaaae248c73&serviceInstanceID=80720d1b-b845-437e-a994-845b8bdfa6b2)
 
 
 ## Built with
