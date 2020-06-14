@@ -11,6 +11,7 @@
 1. [Demo video](#demo-video)
 1. [The architecture](#the-architecture)
 1. [Node-red flow](#node-red-flow)
+1. [Demo for chatbot](#chatbot-demo)
 1. [Contributing](#contributing)
 1. [Versioning](#versioning)
 1. [Authors](#authors)
@@ -61,9 +62,12 @@ Watson Assistant uses natural language understanding and machine learning to ext
 
 ![Roadmap](roadmap.jpg)
 
-## Live demo for chatbot
+## Chatbot demo
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+The preview link for the chatbot tailored to nonchalant sentiments can be found at: [nonchalant.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=553aa513-a252-416d-b600-fafaf8fc1350&serviceInstanceID=518a91b5-639b-4917-b04b-ae6abb6f0e17)
+
+The preview link for the chatbot tailored to nonchalant sentiments can be found at: [panic.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=72404ffb-d4a8-4aa7-b55f-4aaaae248c73&serviceInstanceID=80720d1b-b845-437e-a994-845b8bdfa6b2)
+
 
 ## Built with
 
