@@ -48,7 +48,7 @@ It's imperative that learning and creating can continue when educational institu
 ## Demo video
 
 The video pitch can be found at.
-[![Watch the video]()](https://youtu.be/cMqfFqyroLM)
+[![Watch the video](Project_pitch.PNG)](https://youtu.be/cMqfFqyroLM)
 
 ## The architecture
 
