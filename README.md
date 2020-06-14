@@ -82,15 +82,15 @@ The overall node-red flow can be broken down into three modules:
 ## Chatbot demo
 IBM Watson Studio Assistant is used to provide a user interface for chatbot communication. We pre-trained two chatbots on the extreme spectrums of the emotion outputs, nonchalant and panic for demonstration purposes.
 
-The preview link for the chatbot tailored to nonchalant sentiments can be found at: [nonchalant.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=553aa513-a252-416d-b600-fafaf8fc1350&serviceInstanceID=518a91b5-639b-4917-b04b-ae6abb6f0e17)
+The preview link for the chatbot tailored to nonchalant sentiments can be found at: ![nonchalant.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=eu-gb&integrationID=553aa513-a252-416d-b600-fafaf8fc1350&serviceInstanceID=518a91b5-639b-4917-b04b-ae6abb6f0e17)
 
-The preview link for the chatbot tailored to panic sentiments can be found at: [panic.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=72404ffb-d4a8-4aa7-b55f-4aaaae248c73&serviceInstanceID=80720d1b-b845-437e-a994-845b8bdfa6b2)
+The preview link for the chatbot tailored to panic sentiments can be found at: ![panic.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=72404ffb-d4a8-4aa7-b55f-4aaaae248c73&serviceInstanceID=80720d1b-b845-437e-a994-845b8bdfa6b2)
 
 ## Project roadmap
-
+The project roadmap for Adapt2bot is can be found at ![project roadmap](Project_roadmap.PNG)
 
 ## Getting started
-
+The hyperlink for getting started with a demo can be found at ![getting started](1)
 
 ## Built with
 
