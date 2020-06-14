@@ -42,7 +42,7 @@ It's imperative that learning and creating can continue when educational institu
 
 ## The architecture
 
-![Video transcription/translation app](https://developer.ibm.com/developer/tutorials/cfc-starter-kit-speech-to-text-app-example/images/cfc-covid19-remote-education-diagram-2.png)
+![Video transcription/translation app](Overall_Architecture_Design.PNG)
 
 1. A stream of tweets related to the crisis in discussion is grabbed from the linked twitter API and fed into NODE-RED using specified twitter hashtags periodically according to preset intervals.
 2. NODE-RED filters the stream of tweets using a geo-operator to narrow the tweets to those coming from Singapore.
