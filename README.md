@@ -14,9 +14,14 @@ Innochamp consists of Ajay Philip Koshy, Teo Jun Wei, Heng Gene Yeo, Ni Jiaying 
 1. [Detailed description](#detailed-description)
 1. [Node-red flow](#node-red-flow)
 1. [Demo for chatbot](#chatbot-demo)
-1. [Contributing](#contributing)
+1. [Project roadmap](#project-roadmap)
+1. [Getting started](#getting-started)
+1. [Built with](#built-with)
 1. [Versioning](#versioning)
 1. [Authors](#authors)
+1. [License](#license)
+1. [Acknowledgments](#acknowledgments)
+
 
 ## Short description
 
@@ -81,25 +86,23 @@ The preview link for the chatbot tailored to nonchalant sentiments can be found 
 
 The preview link for the chatbot tailored to panic sentiments can be found at: [panic.chatbot.preview](https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=72404ffb-d4a8-4aa7-b55f-4aaaae248c73&serviceInstanceID=80720d1b-b845-437e-a994-845b8bdfa6b2)
 
+## Project roadmap
+
+
+## Getting started
+
 
 ## Built with
 
 * [Twitter API](https://developer.twitter.com/en/docs/api-reference-index) - A twitter app is created from Twitter developer account to generate credentials and API keys
-* [IBM Cloud (https://www.ibm.com/cloud/watson-natural-language-understanding)
-
-
-
-IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
+* [IBM Cloud Natural Language Understanding](https://www.ibm.com/cloud/watson-natural-language-understanding) - Incorporated into node-red for social media analytics
+* [IBM Cloud Language Translator](https://cloud.ibm.com/apidocs/language-translator)
+* [IBM Cloud Watson Assistant](https://www.ibm.com/cloud/watson-assistant/) - Used to initialize and train chatbots
+* [IBM Cloud node-red](https://nodered.org/)
 
 ## Authors
-
+Team Innochamp for IBMXSCDF innovation challenge.
 
 ## Acknowledgments
 
-* Based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
+* Based on [IBMxSCDF's README template](https://github.com/Code-and-Response/Project-Sample/blob/master/README.md#project-roadmap)
