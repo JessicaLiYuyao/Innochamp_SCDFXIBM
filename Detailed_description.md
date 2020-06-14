@@ -8,4 +8,4 @@ We do so by gathering the public responses to current issues worldwide including
 
 The results of sentiment and emotion analysis can be also used to curate the responses of the chatbot. We train our chatbot with the capability of giving targeted responses to the public on current issues. Whenever a user approaches the chatbot, the text he/she sends would be analysed by Watson Assistant using Natural Language Understanding and machine learning to extract entities and intents of the user question. Based on the analysis, this user would be categorised and chatbot would provide targeted responses accordingly. We noticed that there is already a developed chatbot feature on SCDF website and we think it would be beneficial to add such features to the exsiting chatbot.   
 
-These activities are able to meet the needs of the specific groups and also acts as an *upstream solution* to curb and stop problems before they even arise.
+These activities are able to meet the needs of the specific groups and also acts as an upstream solution to curb and stop problems before they even arise.
